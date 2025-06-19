@@ -5,6 +5,7 @@ Assumptions:
 - You obtained a starter deck
 - You liquefy all extras immediately and you always liquefy premium/animated art cards whenever possible
 - You immediately craft the whole set if you have enough vials from the above liquefying procedure
+- You have no other free resources like rupees or free card packs.
 
 ## How to run
 Install [node](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm), then run `node CardPullSimulator.js`. It will create a file called `trial_results_without_daily_packs.csv`.
