@@ -15,8 +15,24 @@ To get the results with daily packs, uncomment the code block inside `runTrial()
 ## Results
 ![image](https://github.com/user-attachments/assets/f9ed00c9-1f06-44fa-b468-b969b4bad64e)
 
+```
+data = pd.read_csv('trial_results_without_daily_packs.csv')
+data.mean()
+
+Pulls    354.49647
+dtype: float64
+```
+
 You need about 355 packs. 
 
 ![image](https://github.com/user-attachments/assets/e0f93c03-2097-41c4-a51c-b9e5bc283c2a)
 
-If you open daily packs for 30 days, you need about 331 instead.
+```
+data = pd.read_csv('trial_results.csv')
+data.mean()
+
+Pulls    331.51207
+dtype: float64
+```
+
+If you open daily packs for 30 days, you need about 332 instead.
